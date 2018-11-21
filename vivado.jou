@@ -13,3 +13,13 @@ start_gui
 open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr
 update_compile_order -fileset sources_1
 close_project
+open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

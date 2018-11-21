@@ -36,7 +36,9 @@ use ieee.std_logic_unsigned.all;
 entity jelgenerator is
     Port (  clk : in std_logic;
             start : in std_logic;
-            reset : in std_logic );
+            reset : in std_logic;
+            dx : in std_logic_vector(6 downto 0);
+            y : out std_logic_vector(4 downto 0));
 end jelgenerator;
 
 architecture Behavioral of jelgenerator is
@@ -45,11 +47,11 @@ type allapot_tipus is (RDY, INIT_A, CIKLUS_A, INIT_B, INIT_C, CIKLUS_B, INIT_D, 
 
 signal akt_all, kov_all : allapot_tipus;
 
-signal N : std_logic_vector(15 downto 0);
-signal NK : std_logic_vector(15 downto 0);
-signal i : std_logic_vector(15 downto 0);
-signal A : std_logic;
-signal RD : std_logic;
+signal N, N_NEXT : std_logic_vector(15 downto 0);
+signal NK, NK_NEXT : std_logic_vector(15 downto 0);
+signal i, i_NEXT : std_logic_vector(15 downto 0);
+signal A, A_NEXT : std_logic;
+signal RD, RD_NEXT : std_logic;
 
 begin
 
@@ -97,5 +99,72 @@ begin
                 kov_all <= RDY;
         end case;
     end process KAL; 
+    
+    --kapcsolóhálozatok megvalósítása with select when utasítással és az elvégzend? m?veletek megvalósítása.
+    with akt_all select
+        N_NEXT <= N when RDY,
+            "1010" when INIT_A,
+            N when CIKLUS_A,
+            N-1 when INIT_B,
+            "1010" when INIT_C,
+            N when CIKLUS_B,
+            N-1 when INIT_D,
+            (others=>'0') when SET;
+            
+    with akt_all select
+        NK_NEXT <= NK when RDY,
+            "10010100110" when INIT_A,
+            NK when CIKLUS_A,
+            NK-dx when INIT_B,
+            NK when INIT_C,
+            NK when CIKLUS_B,
+            NK+dx when INIT_D,
+            (others=>'0') when SET;
+            
+    with akt_all select
+        i_NEXT <= (others=>'0') when RDY, 
+            NK when INIT_A,
+            i-1 when CIKLUS_A,
+            NK when INIT_B,
+            i when INIT_C, -- vagy: NK i when INIT_C ?????????????
+            i-1 when CIKLUS_B,
+            NK when INIT_D,
+            i when SET;
+            
+    with akt_all select
+        A_NEXT <= '0' when RDY, 
+            '1' when INIT_A,
+            A when CIKLUS_A,
+            not A when INIT_B;
+            -- ??????????????????????????
+--            ,
+--            (others=>'0') when INIT_C,
+--            (others=>'0') when CIKLUS_B,
+--            (others=>'0') when INIT_D,
+--            (others=>'0') when SET;           
+
+    with akt_all select
+        RD_NEXT <= '0' when RDY, 
+            '0' when INIT_A,
+            '0' when CIKLUS_A,
+            '0' when INIT_B,
+            '0' when INIT_C,
+            '0' when CIKLUS_B,
+            '1' when INIT_D;
+            -- ??????????????????????????
+--            ,
+--            (others=>'0') when SET;
+    
+    --adatregiszterek megvalósítása
+    ADAT_R : process(clk, reset)
+    begin
+        if clk'event and clk='1' then
+            N <= N_NEXT;
+            NK <= NK_NEXT;
+            i <= i_NEXT;
+            A <= A_NEXT;
+            RD <= RD_NEXT;
+        end if;
+    end process ADAT_R;
 
 end Behavioral;

@@ -198,3 +198,650 @@ selectCodeEditor("jelgenerator.vhd", 85, 417); // bH:N (JPanel:JComponent, cv:JF
 // Elapsed time: 27 seconds
 setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bal", true); // o:ao (az:f, cv:JFrame)
 setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bal"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 151 seconds
+selectCodeEditor("jelgenerator.vhd", 141, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 74 seconds
+selectCodeEditor("jelgenerator.vhd", 422, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 194, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 98 seconds
+selectCodeEditor("jelgenerator.vhd", 200, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 79 MB (+1869kb) [00:16:52]
+// Elapsed time: 92 seconds
+selectCodeEditor("jelgenerator.vhd", 65, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// [GUI Memory]: 83 MB (+52kb) [00:17:29]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 201 seconds
+selectCodeEditor("jelgenerator.vhd", 116, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("jelgenerator.vhd", 82, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("jelgenerator.vhd", 83, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 202, 404); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 83, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 87, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 185, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 127, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 28, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 254, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 60, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("jelgenerator.vhd", 88, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("jelgenerator.vhd", 103, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("jelgenerator.vhd", 91, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 102, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 114 seconds
+selectCodeEditor("jelgenerator.vhd", 226, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor("jelgenerator.vhd", 241, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 235, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 118, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 98, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 83, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 97, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 108, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("jelgenerator.vhd", 96, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 88 MB (+1510kb) [00:26:00]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("jelgenerator.vhd", 108, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("jelgenerator.vhd", 172, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 179, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("jelgenerator.vhd", 240, 409); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 272, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("jelgenerator.vhd", 280, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bal"); // o:ao (az:f, cv:JFrame)
+selectComboBox("FindAndReplaceDialog:StandardDialog_Find what:", "i", -1); // JComboBox:JComponent (JPanel:JComponent, FindAndReplaceDialog:StandardDialog)
+selectComboBox("FindAndReplaceDialog:StandardDialog_Find what:", "NK", -1); // JComboBox:JComponent (JPanel:JComponent, FindAndReplaceDialog:StandardDialog)
+selectComboBox("FindAndReplaceDialog:StandardDialog_Replace with:", "i", -1); // JComboBox:JComponent (JPanel:JComponent, FindAndReplaceDialog:StandardDialog)
+selectButton("FindAndReplaceDialog:StandardDialog_Find", "Find"); // JButton:AbstractButton (ButtonPanel:JPanel, FindAndReplaceDialog:StandardDialog)
+// [Engine Memory]: 554 MB (+10856kb) [00:27:46]
+selectCodeEditor("jelgenerator.vhd", 104, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 51 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 90 seconds
+selectCodeEditor("jelgenerator.vhd", 92, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 78 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 43 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 90 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectCodeEditor("jelgenerator.vhd", 83, 402); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("jelgenerator.vhd", 266, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("jelgenerator.vhd", 90, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 82, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 57 seconds
+selectCodeEditor("jelgenerator.vhd", 187, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 39 MB. Current time: 11/21/18 5:13:16 PM EET
+// Elapsed time: 15 seconds
+selectCodeEditor("jelgenerator.vhd", 129, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 203, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("jelgenerator.vhd", 207, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 61 seconds
+selectCodeEditor("jelgenerator.vhd", 150, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 29 seconds
+selectCodeEditor("jelgenerator.vhd", 89, 437); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 365, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 88, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("jelgenerator.vhd", 287, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 281, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 93, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 235, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("jelgenerator.vhd", 148, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 63 seconds
+selectCodeEditor("jelgenerator.vhd", 370, 454); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 93 MB (+483kb) [00:46:27]
+// Elapsed time: 897 seconds
+selectCodeEditor("jelgenerator.vhd", 290, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("jelgenerator.vhd", 176, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 345, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 170, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 123, 482); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 130, 473); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 147, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 35 seconds
+selectCodeEditor("jelgenerator.vhd", 145, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectCodeEditor("jelgenerator.vhd", 83, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 242, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 95 seconds
+selectCodeEditor("jelgenerator.vhd", 101, 456); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 85 seconds
+selectCodeEditor("jelgenerator.vhd", 174, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 54 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 41 MB. Current time: 11/21/18 5:43:16 PM EET
+// Elapsed time: 340 seconds
+selectCodeEditor("jelgenerator.vhd", 280, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 254, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 128 seconds
+selectCodeEditor("jelgenerator.vhd", 60, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 180, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("jelgenerator.vhd", 177, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jelgenerator.vhd", 164, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("jelgenerator.vhd", 45, 171); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 148, 394); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 64 seconds
+selectCodeEditor("jelgenerator.vhd", 358, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("jelgenerator.vhd", 115, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 153, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 162, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("jelgenerator.vhd", 63, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 66, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 64, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 69, 394); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 63, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 61, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("jelgenerator.vhd", 69, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "jelgenerator.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 35 seconds
+selectCodeEditor("jelgenerator.vhd", 623, 418); // bH:N (JPanel:JComponent, cv:JFrame)
