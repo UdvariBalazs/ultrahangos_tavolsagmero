@@ -103,17 +103,17 @@ begin
     --kapcsolóhálozatok megvalósítása with select when utasítással és az elvégzend? m?veletek megvalósítása.
     with akt_all select
         N_NEXT <= N when RDY,
-            "1010" when INIT_A,
+            "0000000000001010" when INIT_A,
             N when CIKLUS_A,
             N-1 when INIT_B,
-            "1010" when INIT_C,
+            "0000000000001010" when INIT_C,
             N when CIKLUS_B,
             N-1 when INIT_D,
             (others=>'0') when SET;
             
     with akt_all select
         NK_NEXT <= NK when RDY,
-            "10010100110" when INIT_A,
+            "0000010010100110" when INIT_A,
             NK when CIKLUS_A,
             NK-dx when INIT_B,
             NK when INIT_C,
@@ -135,25 +135,21 @@ begin
         A_NEXT <= '0' when RDY, 
             '1' when INIT_A,
             A when CIKLUS_A,
-            not A when INIT_B;
-            -- ??????????????????????????
---            ,
---            (others=>'0') when INIT_C,
---            (others=>'0') when CIKLUS_B,
---            (others=>'0') when INIT_D,
---            (others=>'0') when SET;           
+            not A when INIT_B,
+            '0' when INIT_C,
+            '0' when CIKLUS_B,
+            '0' when INIT_D,
+            '0' when SET;  
 
     with akt_all select
-        RD_NEXT <= '0' when RDY, 
+        RD <= '0' when RDY, 
             '0' when INIT_A,
             '0' when CIKLUS_A,
             '0' when INIT_B,
             '0' when INIT_C,
             '0' when CIKLUS_B,
-            '1' when INIT_D;
-            -- ??????????????????????????
---            ,
---            (others=>'0') when SET;
+            '1' when INIT_D,
+            '0' when SET;
     
     --adatregiszterek megvalósítása
     ADAT_R : process(clk, reset)
