@@ -84,11 +84,18 @@ begin
             when INIT_B =>
                 kov_all <= INIT_C;
             when INIT_C =>
-                
+                kov_all <= CIKLUS_B;
             when CIKLUS_B =>
+                if i > 0 then
+                    kov_all <= CIKLUS_B;
+                else
+                    kov_all <= INIT_D;
+                end if;
             when INIT_D =>
+                kov_all <= SET;
             when SET =>
-            end case;
+                kov_all <= RDY;
+        end case;
     end process KAL; 
 
 end Behavioral;
