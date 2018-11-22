@@ -38,7 +38,11 @@ entity jelgenerator is
             start : in std_logic;
             reset : in std_logic;
             dx : in std_logic_vector(6 downto 0);
-            y : out std_logic_vector(4 downto 0));
+            N_in : in std_logic_vector(15 downto 0); -- megadja hany hullamot (impulzust kuldok ki)
+            NK_in : in std_logic_vector(15 downto 0); -- megadja egy impulzus periodusat alap orajelben (T = NK_in * 10 ns; ha clk = 100MHz)
+            A_out : out std_logic;
+            RD_out : out std_logic );
+            
 end jelgenerator;
 
 architecture Behavioral of jelgenerator is
@@ -102,18 +106,18 @@ begin
     
     --kapcsolóhálozatok megvalósítása with select when utasítással és az elvégzend? m?veletek megvalósítása.
     with akt_all select
-        N_NEXT <= N when RDY,
-            "0000000000001010" when INIT_A,
+        N_NEXT <= N_in when RDY,
+            N_in when INIT_A,
             N when CIKLUS_A,
             N-1 when INIT_B,
-            "0000000000001010" when INIT_C,
+            N_in when INIT_C,
             N when CIKLUS_B,
             N-1 when INIT_D,
             (others=>'0') when SET;
             
     with akt_all select
-        NK_NEXT <= NK when RDY,
-            "0000010010100110" when INIT_A,
+        NK_NEXT <= NK_in when RDY,
+            NK_in when INIT_A,
             NK when CIKLUS_A,
             NK-dx when INIT_B,
             NK when INIT_C,
@@ -122,11 +126,11 @@ begin
             (others=>'0') when SET;
             
     with akt_all select
-        i_NEXT <= (others=>'0') when RDY, 
+        i_NEXT <= i when RDY, 
             NK when INIT_A,
             i-1 when CIKLUS_A,
             NK when INIT_B,
-            i when INIT_C, -- vagy: NK i when INIT_C ?????????????
+            i when INIT_C,
             i-1 when CIKLUS_B,
             NK when INIT_D,
             i when SET;
@@ -136,9 +140,9 @@ begin
             '1' when INIT_A,
             A when CIKLUS_A,
             not A when INIT_B,
-            '0' when INIT_C,
-            '0' when CIKLUS_B,
-            '0' when INIT_D,
+            A when INIT_C, -- A vagy not A
+            A when CIKLUS_B, -- biztos A
+            not A when INIT_D, -- biztos not A
             '0' when SET;  
 
     with akt_all select
@@ -148,8 +152,8 @@ begin
             '0' when INIT_B,
             '0' when INIT_C,
             '0' when CIKLUS_B,
-            '1' when INIT_D,
-            '0' when SET;
+            '0' when INIT_D,
+            '1' when SET;
     
     --adatregiszterek megvalósítása
     ADAT_R : process(clk, reset)
@@ -162,5 +166,8 @@ begin
             RD <= RD_NEXT;
         end if;
     end process ADAT_R;
+    
+    A_out <= A;
+    RD_out <= RD;
 
 end Behavioral;
