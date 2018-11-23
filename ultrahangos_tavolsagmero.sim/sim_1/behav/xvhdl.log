@@ -1,16 +1,9 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity szimulacio_ultrahangos_tavolsagmero
-ERROR: [VRFC 10-1412] syntax error near in [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:54]
-ERROR: [VRFC 10-91] projekt is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:70]
-ERROR: [VRFC 10-91] clk is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:83]
-ERROR: [VRFC 10-91] clk_period is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:84]
-ERROR: [VRFC 10-91] clk is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:85]
-ERROR: [VRFC 10-91] clk_period is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:86]
-ERROR: [VRFC 10-91] start is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:93]
-ERROR: [VRFC 10-91] reset is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:94]
-ERROR: [VRFC 10-91] dx is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:95]
-ERROR: [VRFC 10-91] n_in is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:96]
-ERROR: [VRFC 10-91] nk_in is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:97]
-ERROR: [VRFC 10-91] clk_period is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:98]
-ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd:38]
-INFO: [VRFC 10-240] VHDL file C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity szimulacio_jelgenerator
+ERROR: [VRFC 10-91] projekt is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:71]
+ERROR: [VRFC 10-91] src_clk is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:84]
+ERROR: [VRFC 10-91] src_clk is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:86]
+ERROR: [VRFC 10-1466] type std_logic does not match with the integer literal [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:97]
+ERROR: [VRFC 10-1466] type std_logic does not match with the integer literal [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:98]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:38]
+INFO: [VRFC 10-240] VHDL file C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd ignored due to errors

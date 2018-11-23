@@ -60,7 +60,7 @@ signal RD, RD_NEXT : std_logic;
 begin
 
     -- állapotregiszter megvalósítása
-    AR : process(clk)
+    AR : process(clk, reset)
     begin
         if reset = '1' then
             akt_all <= RDY;
@@ -146,7 +146,7 @@ begin
             '0' when SET;  
 
     with akt_all select
-        RD <= '0' when RDY, 
+        RD_NEXT <= '0' when RDY, 
             '0' when INIT_A,
             '0' when CIKLUS_A,
             '0' when INIT_B,
