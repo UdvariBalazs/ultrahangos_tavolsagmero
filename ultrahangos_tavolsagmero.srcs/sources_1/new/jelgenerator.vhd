@@ -91,7 +91,7 @@ begin
                 if N > 0 then
                     kov_all <= CIKLUS_A;
                 else
-                    kov_all <= INIT_B;
+                    kov_all <= INIT_C;
                 end if;
             when INIT_C =>
                 kov_all <= CIKLUS_B;
@@ -127,10 +127,10 @@ begin
         NK_NEXT <= NK_in when RDY,
             NK_in when INIT_A,
             NK when CIKLUS_A,
-            NK-dx when INIT_B,
+            NK+dx when INIT_B,
             NK when INIT_C,
             NK when CIKLUS_B,
-            NK+dx when INIT_D,
+            NK-dx when INIT_D,
             (others=>'0') when SET;
             
     with akt_all select

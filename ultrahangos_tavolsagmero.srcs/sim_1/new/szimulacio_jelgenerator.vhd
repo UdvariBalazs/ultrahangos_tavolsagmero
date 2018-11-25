@@ -37,7 +37,7 @@ end szimulacio_jelgenerator;
 
 architecture Behavioral of szimulacio_jelgenerator is
 
-    component ultrahangos_tavolsagmero
+    component jelgenerator
         Port (  clk : in std_logic;
                 start : in std_logic;
                 reset : in std_logic;
@@ -81,21 +81,22 @@ begin
     -- Orajel processzus meghatarozasa
     clk_process :process 
     begin  
-         src_clk <= '0'; 
-         wait for clk_period/2; 
-         src_clk <= '1';  
-         wait for clk_period/2;    
-     end process; 
+        clk <= '0'; 
+        wait for clk_period/2; 
+        clk <= '1';  
+        wait for clk_period/2;    
+    end process; 
 
     -- Stimulus processzus
     stim_proc: process
     begin
     	-- reset allapot 100 ns-ig   
         reset<='1'; 
-        start<='0'; wait for 100 ns;  
+        start<='0';
+        wait for 100 ns;  
         
-        start <= 1; 
-        reset <= 0;
+        start <= '1'; 
+        reset <= '0';
         dx <= "000010";
         N_in <= "0000010010100110"; --   1190
         NK_in <= "0000011111010000"; -- 20000
