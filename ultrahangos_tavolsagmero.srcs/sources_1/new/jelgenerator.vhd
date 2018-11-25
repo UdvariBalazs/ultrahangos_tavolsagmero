@@ -88,7 +88,11 @@ begin
                     kov_all <= INIT_B;
                 end if;
             when INIT_B =>
-                kov_all <= INIT_C;
+                if N > 0 then
+                    kov_all <= CIKLUS_A;
+                else
+                    kov_all <= INIT_B;
+                end if;
             when INIT_C =>
                 kov_all <= CIKLUS_B;
             when CIKLUS_B =>
@@ -98,7 +102,11 @@ begin
                     kov_all <= INIT_D;
                 end if;
             when INIT_D =>
-                kov_all <= SET;
+                if N > 0 then
+                    kov_all <= CIKLUS_B;
+                else
+                    kov_all <= SET;
+                end if;
             when SET =>
                 kov_all <= RDY;
         end case;
