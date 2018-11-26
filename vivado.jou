@@ -2,10 +2,10 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Fri Nov 23 18:22:02 2018
-# Process ID: 14276
+# Start of session at: Mon Nov 26 13:05:05 2018
+# Process ID: 6960
 # Current directory: C:/I_felev/UKDA/ultrahangos_tavolsagmero
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5372 C:\I_felev\UKDA\ultrahangos_tavolsagmero\ultrahangos_tavolsagmero.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12440 C:\I_felev\UKDA\ultrahangos_tavolsagmero\ultrahangos_tavolsagmero.xpr
 # Log file: C:/I_felev/UKDA/ultrahangos_tavolsagmero/vivado.log
 # Journal file: C:/I_felev/UKDA/ultrahangos_tavolsagmero\vivado.jou
 #-----------------------------------------------------------
@@ -14,35 +14,4 @@ open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.x
 update_compile_order -fileset sources_1
 launch_simulation
 launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-close_project
-open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr
-update_compile_order -fileset sources_1
 synth_design -rtl -name rtl_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_runs impl_1
-wait_on_run impl_1
-close_design
-open_run impl_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-reset_run synth_1 -noclean_dir 
-close_design
-launch_simulation
-remove_files -fileset sim_1 C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd
-file delete -force C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_ultrahangos_tavolsagmero.vhd
-update_compile_order -fileset sim_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd w ]
-add_files -fileset sim_1 C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
-launch_simulation
-launch_simulation

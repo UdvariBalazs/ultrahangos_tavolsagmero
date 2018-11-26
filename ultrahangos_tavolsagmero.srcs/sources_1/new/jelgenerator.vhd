@@ -114,34 +114,34 @@ begin
     
     --kapcsolóhálozatok megvalósítása with select when utasítással és az elvégzend? m?veletek megvalósítása.
     with akt_all select
-        N_NEXT <= N_in when RDY,
+        N_NEXT <= N when RDY,
             N_in when INIT_A,
             N when CIKLUS_A,
             N-1 when INIT_B,
             N_in when INIT_C,
             N when CIKLUS_B,
             N-1 when INIT_D,
-            (others=>'0') when SET;
+            N when SET; -- nem befolyasol semmit
             
     with akt_all select
-        NK_NEXT <= NK_in when RDY,
+        NK_NEXT <= NK when RDY,
             NK_in when INIT_A,
             NK when CIKLUS_A,
-            NK+dx when INIT_B,
+            NK-dx when INIT_B,
             NK when INIT_C,
             NK when CIKLUS_B,
-            NK-dx when INIT_D,
-            (others=>'0') when SET;
+            NK+dx when INIT_D,
+            NK when SET; -- nem befolyasol semmit
             
     with akt_all select
-        i_NEXT <= i when RDY, 
+        i_NEXT <= i when RDY, -- nem befolyasol semmit
             NK when INIT_A,
             i-1 when CIKLUS_A,
             NK when INIT_B,
             i when INIT_C,
             i-1 when CIKLUS_B,
             NK when INIT_D,
-            i when SET;
+            i when SET; 
             
     with akt_all select
         A_NEXT <= '0' when RDY, 
