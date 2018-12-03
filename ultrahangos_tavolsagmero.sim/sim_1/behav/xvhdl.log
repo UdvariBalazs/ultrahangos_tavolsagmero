@@ -1,5 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity jelgenerator
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity szimulacio_jelgenerator
-ERROR: [VRFC 10-91] projekt is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:71]
-ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:38]
-INFO: [VRFC 10-240] VHDL file C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd ignored due to errors

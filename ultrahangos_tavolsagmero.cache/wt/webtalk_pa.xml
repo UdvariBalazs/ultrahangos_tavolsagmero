@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Nov 26 14:51:00 2018">
+<application name="pa" timeStamp="Mon Dec 03 12:51:21 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="1ea66b101c8f4d1da9faf0b1aaa93721" type="ProjectID"/>
 <property name="ProjectIteration" value="2" type="ProjectIteration"/>
@@ -17,6 +17,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<property name="AddDesignTools" value="1" type="JavaHandler"/>
 <property name="AddSources" value="3" type="JavaHandler"/>
 <property name="CloseProject" value="3" type="JavaHandler"/>
 <property name="EditDelete" value="1" type="JavaHandler"/>
@@ -29,64 +30,179 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RunSchematic" value="5" type="JavaHandler"/>
 <property name="RunSynthesis" value="5" type="JavaHandler"/>
 <property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
-<property name="ShowView" value="1" type="JavaHandler"/>
-<property name="SimulationRun" value="24" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+<property name="SimulationRun" value="31" type="JavaHandler"/>
 <property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
 <property name="ViewTaskRTLAnalysis" value="4" type="JavaHandler"/>
 <property name="ViewTaskSynthesis" value="3" type="JavaHandler"/>
 <property name="ZoomOut" value="17" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, jelgenerator - Behavioral (jelgenerator.vhd" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, szimulacio_jelgenerator - Behavioral (szimulacio_jelgenerator.vhd" value="7" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_HELP, Help" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_REPORT, Report" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, Unselect Type" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, Open Messages View" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_DESIGN_TOOLS, Add Design Tools or Devices..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, jelgenerator - Behavioral (jelgenerator.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, jelgenerator - Behavioral (jelgenerator.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, szimulacio_jelgenerator - Behavioral (szimulacio_jelgenerator.vhd" value="11" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_DESIGN_HUBS, Design Hubs" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_HELP, Help" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="8" type="GuiResourceData"/>
 <property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="2" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 125, 145" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 153, 247" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 154, 110" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 172, 28" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 174, 138" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 186, 90" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 187, 146" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 187, 163" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 193, 146" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 201, 282, false, false, true, false, false" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 210, 277" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 244, 31" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 266, 262" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 272, 206" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 276, 199" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 281, 182" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 295, 230" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 304, 139" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 310, 132" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 87, 123" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 88, 225" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 92, 61" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 96, 146" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 96, 95" value="1" type="GuiResourceData"/>
-<property name="jelgenerator.vhd, 97, 111" value="1" type="GuiResourceData"/>
-<property name="szimulacio_jelgenerator.vhd, 211, 124" value="1" type="GuiResourceData"/>
-<property name="szimulacio_jelgenerator.vhd, 278, 46" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_PROJECT_SUMMARY, Project Summary" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="5" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, xil, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="6" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1091, 389" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 122, 276" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 190, 212" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 214, 360" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 330, 85" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 336, 338" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 380, 493" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 448, 271" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 459, 351" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 483, 275" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 570, 423" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 572, 284" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 639, 281" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 643, 112" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 727, 332" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 756, 167" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 777, 22" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, A_out], 6, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, NK_in[15:0]], 5" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, N_in[15:0]], 4" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, clk_period], 8, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, dx[6:0]], 3" value="2" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 100, 277" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 101, 162" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 102, 121" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 102, 169" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 102, 248" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 105, 154" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 107, 139" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 107, 156" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 108, 194" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 109, 319" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 112, 341" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 117, 263" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 118, 205" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 119, 249" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 121, 196" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 123, 199" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 125, 155" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 127, 159" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 128, 217" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 144, 276" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 15, 413" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 151, 131" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 151, 158" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 153, 312" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 157, 164" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 157, 394" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 161, 166" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 164, 432" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 167, 321" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 173, 160" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 178, 244" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 19, 110" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 19, 236" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 196, 192" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 21, 154" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 210, 123" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 212, 129" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 213, 244" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 23, 270" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 232, 181" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 235, 176" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 235, 180" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 238, 310" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 25, 230" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 252, 169" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 254, 119" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 257, 430" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 258, 172" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 259, 221" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 270, 125" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 280, 129" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 319, 175" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 329, 203" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 335, 164" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 372, 240" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 52, 129" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 52, 178" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 54, 289" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 55, 163" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 57, 251" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 59, 193" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 64, 131" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 74, 275" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 77, 144" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 77, 157" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 79, 253" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 81, 144" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 83, 178" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 84, 162" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 84, 180" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 84, 250" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 87, 281" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 89, 141" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 94, 128" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 95, 179" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 99, 126" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 99, 126, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="jelgenerator.vhd, 99, 187" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 104, 264, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 105, 140" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 105, 264" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 107, 182" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 108, 211" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 113, 160" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 117, 145, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 117, 146" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 117, 90" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 117, 90, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 130, 260" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 130, 260, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 142, 92" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 142, 94" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 148, 210" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 151, 336" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 172, 223" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 181, 237" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 186, 217" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 213, 140" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 235, 123" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 235, 224" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 237, 130" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 289, 159" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 293, 115" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 294, 155" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 305, 361" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 35, 258" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 89, 106, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 90, 106" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 91, 143" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 91, 148" value="1" type="GuiResourceData"/>
+<property name="szimulacio_jelgenerator.vhd, 92, 234" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="18" type="GuiMode"/>
+<property name="GuiMode" value="19" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="16" type="TclMode"/>
+<property name="TclMode" value="17" type="TclMode"/>
 </item>
 </section>
 </application>

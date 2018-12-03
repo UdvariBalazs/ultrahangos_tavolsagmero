@@ -54,7 +54,7 @@ architecture Behavioral of szimulacio_jelgenerator is
     signal clk : std_logic;
     signal start : std_logic;
     signal reset : std_logic;
-    signal dx : std_logic_vector(5 downto 0);
+    signal dx : std_logic_vector(6 downto 0);
     signal N_in : std_logic_vector(15 downto 0);
     signal NK_in : std_logic_vector(15 downto 0);
     
@@ -68,7 +68,7 @@ architecture Behavioral of szimulacio_jelgenerator is
 begin
 
     -- UUT inicializalasa
-    uut : projekt port map (
+    uut : jelgenerator port map (
         clk => clk,
         start => start, 
         reset => reset,
@@ -97,7 +97,7 @@ begin
         
         start <= '1'; 
         reset <= '0';
-        dx <= "000010";
+        dx <= "0000010";
         N_in <= "0000010010100110"; --   1190
         NK_in <= "0000011111010000"; -- 20000
         wait for clk_period;
