@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Nov 26 13:05:05 2018
+# Process ID: 6960
+# Current directory: C:/I_felev/UKDA/ultrahangos_tavolsagmero
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12440 C:\I_felev\UKDA\ultrahangos_tavolsagmero\ultrahangos_tavolsagmero.xpr
+# Log file: C:/I_felev/UKDA/ultrahangos_tavolsagmero/vivado.log
+# Journal file: C:/I_felev/UKDA/ultrahangos_tavolsagmero\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 724.746 ; gain = 126.949
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'szimulacio_jelgenerator' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj szimulacio_jelgenerator_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity szimulacio_jelgenerator
+ERROR: [VRFC 10-91] projekt is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:71]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:38]
+INFO: [VRFC 10-240] VHDL file C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'szimulacio_jelgenerator' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj szimulacio_jelgenerator_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity szimulacio_jelgenerator
+ERROR: [VRFC 10-91] projekt is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:71]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd:38]
+INFO: [VRFC 10-240] VHDL file C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sim_1/new/szimulacio_jelgenerator.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: jelgenerator
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:12 ; elapsed = 01:45:01 . Memory (MB): peak = 766.188 ; gain = 559.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'jelgenerator' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
+WARNING: [Synth 8-614] signal 'N' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'jelgenerator' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:13 ; elapsed = 01:45:02 . Memory (MB): peak = 803.313 ; gain = 596.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:13 ; elapsed = 01:45:02 . Memory (MB): peak = 803.313 ; gain = 596.195
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:30 ; elapsed = 01:45:15 . Memory (MB): peak = 1119.918 ; gain = 912.801
+6 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 1119.918 ; gain = 361.547
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 26 14:51:03 2018...
