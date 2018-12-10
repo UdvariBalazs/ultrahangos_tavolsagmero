@@ -43,6 +43,7 @@ entity konvolucios_modul is
            Reset1 : in STD_LOGIC;
            CESET : in STD_LOGIC;
            CESUM : in STD_LOGIC;
+           
            SOUT : out STD_LOGIC;
            ESOUT : out STD_LOGIC;
            SUMOUT : out STD_LOGIC_VECTOR (6 downto 0) );
@@ -50,38 +51,72 @@ end konvolucios_modul;
 
 architecture Behavioral of konvolucios_modul is
 
-signal s: std_logic_vector(RSZ-1 downto 0);
+signal s0 : std_logic_vector(RSZ-1 downto 0);
+signal s1 : std_logic_vector(RSZ-1 downto 0);
+signal s2 : std_logic_vector(RSZ-1 downto 0);
+signal xor_gate : std_logic_vector(RSZ-1 downto 0) ;
 
 begin
-     ciklus0 : for i in 0 to RSZ-1 generate
+    ciklus0 : for i in 0 to RSZ-1 generate
          if_1 : if i=0 generate
             reg_0 : process(clk, Reset0)
             begin
                 if clk'event and clk='1' then
                     if Reset0='1' then
-                        s(i) <= '0';
+                        s0(i) <= '0';
                     elsif CESIN='1' then
-                        s(i) <= SIN;
+                        s0(i) <= SIN;
+                        
                     end if;
                 end if;
             end process;
          end generate; 
-
+    
         if_i : if i>0 generate
             reg_i : process(clk, Reset0)
             begin
                 if clk'event and clk='1' then
                     if Reset0='0' then
-                        s(i) <= '0';
+                        s0(i) <= '0';
                     elsif CESIN='1' then
-                        s(i) <= s(i-1);
+                        s0(i) <= s0(i-1);
                     end if;
                 end if;
             end process;
         end generate;
-    end generate; -- ciklus0 vege
-    SOUT <= s(RSZ-1);
+    end generate;
+    SOUT <= s0(RSZ-1);
+    ------------------ ciklus0 vege
     
+    ciklus1 : for i in 0 to RSZ-1 generate
+         if_1 : if i=0 generate
+            reg_0 : process(clk, Reset1)
+            begin
+                if clk'event and clk='1' then
+                    if Reset1='1' then
+                        s1(i) <= '0';
+                    elsif CEESIN='1' then
+                        s1(i) <= ESIN;
+                    end if;
+                end if;
+            end process;
+        end generate;          
     
+        if_i : if i>0 generate
+            reg_i : process(clk, Reset1)
+            begin
+                if clk'event and clk='1' then
+                    if Reset1='1' then
+                        s1(i) <= '0';
+                    elsif CEESIN='1' then
+                        s1(i) <= s1(i-1);
+                    end if;
+                end if;
+            end process;
+        end generate;
+    end generate;   
+    ESOUT <= s1(RSZ-1);    
+    ------------------ ciklus1 vege
     
+    -- a vagy kapukat is egy for generate-be beletenni 
 end Behavioral;

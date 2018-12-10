@@ -114,3 +114,245 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
 update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: jelgenerator
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+2 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: jelgenerator
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:02 ; elapsed = 00:53:41 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'jelgenerator' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
+WARNING: [Synth 8-614] signal 'N' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'jelgenerator' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:03 ; elapsed = 00:53:42 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:03 ; elapsed = 00:53:42 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:05:09 ; elapsed = 00:53:46 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1657.316 ; gain = 39.809
+set_property top konvolucios_modul [current_fileset]
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:18 ; elapsed = 00:54:15 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-3848] Net ESOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:47]
+WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESOUT
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESIN
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CEESIN
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port Reset1
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:19 ; elapsed = 00:54:15 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:19 ; elapsed = 00:54:16 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1661.684 ; gain = 4.367
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:40 ; elapsed = 00:57:12 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:64]
+ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:66]
+ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:77]
+ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:79]
+ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:85]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:40 ; elapsed = 00:57:13 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:58:43 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-1031] s0in is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:66]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:58:43 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:53 ; elapsed = 00:58:59 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-3848] Net ESOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:47]
+WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESOUT
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESIN
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CEESIN
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port Reset1
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:53 ; elapsed = 00:59:00 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:53 ; elapsed = 00:59:00 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1678.109 ; gain = 16.426
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:06:33 ; elapsed = 01:11:15 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:06:34 ; elapsed = 01:11:15 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:06:34 ; elapsed = 01:11:16 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1678.109 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:07:04 ; elapsed = 01:24:04 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:52]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:52]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
+WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:07:06 ; elapsed = 01:24:05 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:07:06 ; elapsed = 01:24:05 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1682.445 ; gain = 4.336
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 10 14:50:00 2018...
