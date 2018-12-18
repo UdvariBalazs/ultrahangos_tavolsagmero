@@ -2,10 +2,10 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Dec 10 13:25:15 2018
-# Process ID: 10036
+# Start of session at: Mon Dec 17 13:23:31 2018
+# Process ID: 2468
 # Current directory: C:/I_felev/UKDA/ultrahangos_tavolsagmero
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4516 C:\I_felev\UKDA\ultrahangos_tavolsagmero\ultrahangos_tavolsagmero.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2716 C:\I_felev\UKDA\ultrahangos_tavolsagmero\ultrahangos_tavolsagmero.xpr
 # Log file: C:/I_felev/UKDA/ultrahangos_tavolsagmero/vivado.log
 # Journal file: C:/I_felev/UKDA/ultrahangos_tavolsagmero\vivado.jou
 #-----------------------------------------------------------
@@ -16,127 +16,21 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 747.070 ; gain = 109.176
-update_compile_order -fileset sources_1
-file mkdir C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/constrs_1
-close [ open C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd w ]
-add_files C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd
-update_compile_order -fileset sources_1
-close_project
-****** Webtalk v2016.2 (64-bit)
-  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
-  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
-
-source C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.hw/webtalk/labtool_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Mon Dec 10 13:48:37 2018...
-create_project lab7_for_generate_pelda C:/I_felev/UKDA/L7_for_generate/lab7_for_generate_pelda -part xc7z010clg400-1
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
-add_files -norecurse C:/I_felev/UKDA/L7_for_generate/pelda_12_generate.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-launch_runs synth_1
-INFO: [HDL 9-1061] Parsing VHDL file "C:/I_felev/UKDA/L7_for_generate/pelda_12_generate.vhd" into library xil_defaultlib [C:/I_felev/UKDA/L7_for_generate/pelda_12_generate.vhd:1]
-[Mon Dec 10 13:55:41 2018] Launched synth_1...
-Run output will be captured here: C:/I_felev/UKDA/L7_for_generate/lab7_for_generate_pelda/lab7_for_generate_pelda.runs/synth_1/runme.log
-launch_runs impl_1
-[Mon Dec 10 13:56:12 2018] Launched impl_1...
-Run output will be captured here: C:/I_felev/UKDA/L7_for_generate/lab7_for_generate_pelda/lab7_for_generate_pelda.runs/impl_1/runme.log
-open_run impl_1
-INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2016.2
-INFO: [Device 21-403] Loading part xc7z010clg400-1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 997.723 ; gain = 0.000
-Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 997.723 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1101.141 ; gain = 306.457
-WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7z010clg400-1
-Top: pelda_4_generate
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:36 ; elapsed = 00:32:14 . Memory (MB): peak = 1248.551 ; gain = 1041.766
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'pelda_4_generate' [C:/I_felev/UKDA/L7_for_generate/pelda_12_generate.vhd:43]
-	Parameter RSZ bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'pelda_4_generate' (1#1) [C:/I_felev/UKDA/L7_for_generate/pelda_12_generate.vhd:43]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:38 ; elapsed = 00:32:15 . Memory (MB): peak = 1400.574 ; gain = 1193.789
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:39 ; elapsed = 00:32:16 . Memory (MB): peak = 1427.938 ; gain = 1221.152
----------------------------------------------------------------------------------
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Completed Processing XDC Constraints
-
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-RTL Elaboration Complete:  : Time (s): cpu = 00:03:46 ; elapsed = 00:32:19 . Memory (MB): peak = 1617.508 ; gain = 1410.723
-5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1617.508 ; gain = 492.422
-close_project
-****** Webtalk v2016.2 (64-bit)
-  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
-  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
-
-source C:/I_felev/UKDA/L7_for_generate/lab7_for_generate_pelda/lab7_for_generate_pelda.hw/webtalk/labtool_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Mon Dec 10 13:59:13 2018...
-open_project C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 760.328 ; gain = 128.875
 update_compile_order -fileset sources_1
 synth_design -rtl -name rtl_1
 Command: synth_design -rtl -name rtl_1
 Starting synth_design
 Using part: xc7z010clg400-1
 Top: jelgenerator
-INFO: [Common 17-41] Interrupt caught. Command should exit soon.
-INFO: [Common 17-344] 'source' was cancelled
-2 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
-synth_design failed
-INFO: [Common 17-344] 'synth_design' was cancelled
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7z010clg400-1
-Top: jelgenerator
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:05:02 ; elapsed = 00:53:41 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+Starting RTL Elaboration : Time (s): cpu = 00:01:27 ; elapsed = 00:19:57 . Memory (MB): peak = 789.070 ; gain = 582.227
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'jelgenerator' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
 WARNING: [Synth 8-614] signal 'N' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:73]
 INFO: [Synth 8-256] done synthesizing module 'jelgenerator' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/jelgenerator.vhd:48]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:03 ; elapsed = 00:53:42 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+Finished RTL Elaboration : Time (s): cpu = 00:01:28 ; elapsed = 00:19:58 . Memory (MB): peak = 811.703 ; gain = 604.859
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -146,8 +40,9 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:03 ; elapsed = 00:53:42 . Memory (MB): peak = 1617.508 ; gain = 1410.723
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:28 ; elapsed = 00:19:58 . Memory (MB): peak = 811.703 ; gain = 604.859
 ---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -158,36 +53,52 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-RTL Elaboration Complete:  : Time (s): cpu = 00:05:09 ; elapsed = 00:53:46 . Memory (MB): peak = 1657.316 ; gain = 1450.531
-5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:45 ; elapsed = 00:20:10 . Memory (MB): peak = 1097.254 ; gain = 890.410
+6 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1657.316 ; gain = 39.809
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 1097.254 ; gain = 325.953
 set_property top konvolucios_modul [current_fileset]
 update_compile_order -fileset sources_1
 refresh_design
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:05:18 ; elapsed = 00:54:15 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+Starting RTL Elaboration : Time (s): cpu = 00:02:00 ; elapsed = 00:21:13 . Memory (MB): peak = 1119.484 ; gain = 912.641
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:54]
 	Parameter RSZ bound to: 32 - type: integer 
-WARNING: [Synth 8-3848] Net ESOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:47]
-WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESOUT
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESIN
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CEESIN
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port Reset1
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:54]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:19 ; elapsed = 00:54:15 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+Finished RTL Elaboration : Time (s): cpu = 00:02:01 ; elapsed = 00:21:14 . Memory (MB): peak = 1130.008 ; gain = 923.164
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -197,7 +108,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:19 ; elapsed = 00:54:16 . Memory (MB): peak = 1657.316 ; gain = 1450.531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:01 ; elapsed = 00:21:14 . Memory (MB): peak = 1130.008 ; gain = 923.164
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -206,57 +117,47 @@ Initializing timing engine
 Completed Processing XDC Constraints
 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1661.684 ; gain = 4.367
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1207.324 ; gain = 87.840
 refresh_design
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:05:40 ; elapsed = 00:57:12 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+Starting RTL Elaboration : Time (s): cpu = 00:03:22 ; elapsed = 00:54:48 . Memory (MB): peak = 1207.324 ; gain = 1000.480
 ---------------------------------------------------------------------------------
-ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:64]
-ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:66]
-ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:77]
-ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:79]
-ERROR: [Synth 8-1031] s is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:85]
-INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:40 ; elapsed = 00:57:13 . Memory (MB): peak = 1661.684 ; gain = 1454.898
----------------------------------------------------------------------------------
-RTL Elaboration failed
-ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:58:43 . Memory (MB): peak = 1661.684 ; gain = 1454.898
----------------------------------------------------------------------------------
-ERROR: [Synth 8-1031] s0in is not declared [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:66]
-INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:58:43 . Memory (MB): peak = 1661.684 ; gain = 1454.898
----------------------------------------------------------------------------------
-RTL Elaboration failed
-ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:05:53 ; elapsed = 00:58:59 . Memory (MB): peak = 1661.684 ; gain = 1454.898
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 	Parameter RSZ bound to: 32 - type: integer 
-WARNING: [Synth 8-3848] Net ESOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:47]
-WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESOUT
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port ESIN
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CEESIN
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port Reset1
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:05:53 ; elapsed = 00:59:00 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+Finished RTL Elaboration : Time (s): cpu = 00:03:23 ; elapsed = 00:54:49 . Memory (MB): peak = 1207.324 ; gain = 1000.480
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -266,7 +167,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:53 ; elapsed = 00:59:00 . Memory (MB): peak = 1661.684 ; gain = 1454.898
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:23 ; elapsed = 00:54:49 . Memory (MB): peak = 1207.324 ; gain = 1000.480
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -275,28 +176,167 @@ Initializing timing engine
 Completed Processing XDC Constraints
 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1678.109 ; gain = 16.426
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1234.645 ; gain = 27.320
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:04:00 ; elapsed = 01:02:42 . Memory (MB): peak = 1234.645 ; gain = 1027.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:04:01 ; elapsed = 01:02:43 . Memory (MB): peak = 1234.645 ; gain = 1027.801
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:01 ; elapsed = 01:02:43 . Memory (MB): peak = 1234.645 ; gain = 1027.801
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1246.535 ; gain = 11.891
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:04:19 ; elapsed = 01:04:47 . Memory (MB): peak = 1246.535 ; gain = 1039.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
+	Parameter RSZ bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:04:20 ; elapsed = 01:04:48 . Memory (MB): peak = 1246.535 ; gain = 1039.691
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:20 ; elapsed = 01:04:48 . Memory (MB): peak = 1246.535 ; gain = 1039.691
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1257.184 ; gain = 10.648
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 refresh_design
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:06:33 ; elapsed = 01:11:15 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Starting RTL Elaboration : Time (s): cpu = 00:04:48 ; elapsed = 01:11:28 . Memory (MB): peak = 1257.184 ; gain = 1050.340
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 	Parameter RSZ bound to: 32 - type: integer 
-WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:51]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:175]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:06:34 ; elapsed = 01:11:15 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Finished RTL Elaboration : Time (s): cpu = 00:04:49 ; elapsed = 01:11:29 . Memory (MB): peak = 1257.184 ; gain = 1050.340
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -306,7 +346,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:06:34 ; elapsed = 01:11:16 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:49 ; elapsed = 01:11:30 . Memory (MB): peak = 1257.184 ; gain = 1050.340
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -315,26 +355,47 @@ Initializing timing engine
 Completed Processing XDC Constraints
 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-refresh_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1678.109 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1265.668 ; gain = 8.484
 refresh_design
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:07:04 ; elapsed = 01:24:04 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Starting RTL Elaboration : Time (s): cpu = 00:05:20 ; elapsed = 01:24:04 . Memory (MB): peak = 1265.668 ; gain = 1058.824
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'konvolucios_modul' [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 	Parameter RSZ bound to: 32 - type: integer 
-WARNING: [Synth 8-3848] Net SUMOUT in module/entity konvolucios_modul does not have driver. [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:49]
-INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:52]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[6]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[5]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[4]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[3]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[2]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[1]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port SUMOUT[0]
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESET
-WARNING: [Synth 8-3331] design konvolucios_modul has unconnected port CESUM
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+WARNING: [Synth 8-614] signal 's2' is read in the process but is not in the sensitivity list [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:176]
+INFO: [Synth 8-256] done synthesizing module 'konvolucios_modul' (1#1) [C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.srcs/sources_1/new/konvolucios_modul.vhd:53]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:07:06 ; elapsed = 01:24:05 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Finished RTL Elaboration : Time (s): cpu = 00:05:21 ; elapsed = 01:24:06 . Memory (MB): peak = 1265.668 ; gain = 1058.824
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -344,7 +405,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:07:06 ; elapsed = 01:24:05 . Memory (MB): peak = 1678.109 ; gain = 1471.324
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:22 ; elapsed = 01:24:06 . Memory (MB): peak = 1265.668 ; gain = 1058.824
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -353,6 +414,6 @@ Initializing timing engine
 Completed Processing XDC Constraints
 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1682.445 ; gain = 4.336
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1278.363 ; gain = 12.695
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Dec 10 14:50:00 2018...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 17 14:48:40 2018...

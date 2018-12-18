@@ -99,7 +99,7 @@ begin
         reset <= '0';
         dx <= "0000010"; --                 2 (DEC),   02 (HEX)  
         N_in <= "0000010010100110"; --   1190 (DEC), 04a6 (HEX)
-        NK_in <= "0100111000100000"; -- 20000D(DEC), 4e20 (HEX)        
+        NK_in <= "0100111000100000"; -- 20000 (DEC), 4e20 (HEX)        
         wait for clk_period;
         
     wait;
