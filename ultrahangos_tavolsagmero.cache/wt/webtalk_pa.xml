@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Dec 17 14:48:37 2018">
+<application name="pa" timeStamp="Sun Jan 06 21:02:28 2019">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="1ea66b101c8f4d1da9faf0b1aaa93721" type="ProjectID"/>
 <property name="ProjectIteration" value="3" type="ProjectIteration"/>
@@ -18,7 +18,7 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="AddDesignTools" value="1" type="JavaHandler"/>
-<property name="AddSources" value="6" type="JavaHandler"/>
+<property name="AddSources" value="10" type="JavaHandler"/>
 <property name="CloseProject" value="8" type="JavaHandler"/>
 <property name="EditDelete" value="1" type="JavaHandler"/>
 <property name="EditUndo" value="1" type="JavaHandler"/>
@@ -28,177 +28,242 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="OpenProject" value="2" type="JavaHandler"/>
 <property name="ReloadDesign" value="8" type="JavaHandler"/>
 <property name="RunImplementation" value="2" type="JavaHandler"/>
-<property name="RunSchematic" value="27" type="JavaHandler"/>
+<property name="RunSchematic" value="31" type="JavaHandler"/>
 <property name="RunSynthesis" value="7" type="JavaHandler"/>
 <property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
-<property name="SetTopNode" value="4" type="JavaHandler"/>
+<property name="SetTopNode" value="6" type="JavaHandler"/>
 <property name="ShowView" value="3" type="JavaHandler"/>
 <property name="ShowWorldView" value="1" type="JavaHandler"/>
 <property name="SimulationClose" value="4" type="JavaHandler"/>
 <property name="SimulationRelaunch" value="1" type="JavaHandler"/>
 <property name="SimulationRun" value="48" type="JavaHandler"/>
 <property name="ViewTaskImplementation" value="2" type="JavaHandler"/>
-<property name="ViewTaskRTLAnalysis" value="10" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="12" type="JavaHandler"/>
 <property name="ViewTaskSynthesis" value="3" type="JavaHandler"/>
+<property name="ZoomFit" value="1" type="JavaHandler"/>
 <property name="ZoomIn" value="5" type="JavaHandler"/>
 <property name="ZoomOut" value="17" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="1" type="GuiResourceData"/>
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, konvolucios_modul" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, VHDL, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_FIT, Schematic_zoom_fit" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 6" value="1" type="GuiResourceData"/>
 <property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, jelgenerator - Behavioral (jelgenerator.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, konvolucios_modul - Behavioral (konvolucios_modul.vhd" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, teljes_konvolucios_modul - Behavioral (teljes_konvolucios_modul.vhd" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 7, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, szimulacio_jelgenerator - Behavioral (szimulacio_jelgenerator.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, szimulacio_konvolucios_modul - Behavioral (szimulacio_konvolucios_modul.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, teljes_konvolucios_modul - Behavioral (teljes_konvolucios_modul.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 9" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
 <property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="4" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="7" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="3" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String" value="1" type="GuiResourceData"/>
-<property name="RDIResource.HTree_COLLAPSE_ALL, Netlist_collapse_all" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 100, 210" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 105, 95" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 108, 130" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 108, 187" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 108, 215" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 108, 95" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 109, 122" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 111, 199" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 113, 158" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 114, 106" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 114, 126" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 123, 206" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 127, 127" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 128, 150" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 128, 157" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 129, 149" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 129, 335" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 139, 125" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 139, 255" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 145, 234" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 145, 319" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 153, 107" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 153, 365" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 155, 160" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 155, 229" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 155, 325" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 161, 401" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 163, 339" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 167, 193" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 167, 76" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 168, 215" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 168, 390" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 174, 141" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 174, 219" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 174, 274" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 175, 221" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 175, 310" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 176, 329" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 177, 168" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 178, 151" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 178, 180" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 179, 365" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 181, 88" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 182, 295" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 183, 250" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 183, 268" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 184, 183" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 187, 282" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 189, 262" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 189, 279" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 190, 385" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 193, 256" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 195, 347" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 198, 358" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 205, 282" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 218, 182" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 218, 269" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 220, 253" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 221, 295" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 223, 178" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 232, 269" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 238, 193" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 244, 337" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 246, 231" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 255, 76" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 256, 333" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 258, 59" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 260, 177" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 262, 42" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 263, 224" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 266, 208" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 267, 190" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 271, 193" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 271, 194" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 273, 290" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 286, 267" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 289, 307" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 294, 230" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 299, 263" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 306, 358" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 307, 196" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 309, 351" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 314, 322" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 317, 184" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 323, 180" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 331, 8" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 336, 329" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 337, 205" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 341, 143" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 343, 215" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 346, 177" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 346, 253" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 350, 110" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 350, 125" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 353, 260" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 380, 277" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 382, 232" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 394, 209" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 401, 193" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 444, 291" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 446, 296" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 463, 182" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 465, 181" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 483, 277" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 52, 163" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 52, 227" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 538, 107" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 56, 192" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 561, 123" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 57, 160" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 58, 424" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 60, 214" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 63, 163" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 64, 341" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 65, 166" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 67, 109" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 68, 147" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 68, 177" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 70, 240" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 70, 318" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 70, 335" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 75, 334" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 78, 195" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 78, 215" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 78, 300" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 79, 107" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 79, 119" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 79, 139" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 81, 176" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 82, 218" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 82, 91" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 83, 167" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 84, 198" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 85, 296" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 89, 126" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 94, 152" value="1" type="GuiResourceData"/>
-<property name="konvolucios_modul.vhd, 94, 418" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/I_felev/UKDA/ultrahangos_tavolsagmero/ultrahangos_tavolsagmero.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="5" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="19" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_MARK, Mark" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="5" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, esout" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, esout, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, osszeado" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, Toggle Line Comments" value="2" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 100, 127" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 100, 158" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 101, 108" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 101, 129" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 101, 142" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 102, 115" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 102, 93" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 103, 127" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 103, 142" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 103, 93" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 104, 120" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 104, 210" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 105, 109" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 105, 158" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 105, 160" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 105, 5" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 106, 175" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 107, 123" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 108, 74" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 109, 139" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 109, 209" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 110, 105" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 110, 142" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 112, 450" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 113, 227" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 114, 141" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 117, 84" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 118, 129" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 118, 94" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 119, 110" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 122, 60" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 125, 192" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 129, 419, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 129, 420" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 129, 89" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 138, 272, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 141, 190" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 143, 164" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 148, 230" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 150, 139" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 150, 177" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 153, 140" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 153, 194" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 153, 197" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 156, 128" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 164, 63" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 169, 195" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 169, 77" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 181, 130" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 182, 363" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 183, 334" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 185, 146" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 188, 144" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 201, 112" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 202, 23" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 203, 176" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 203, 72" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 209, 294" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 215, 126" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 215, 149" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 219, 324" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 220, 308" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 222, 216" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 223, 52" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 226, 314" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 231, 112" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 238, 176" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 238, 195" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 240, 86" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 241, 108" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 241, 240" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 245, 211" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 247, 212" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 25, 418" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 250, 368" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 251, 57" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 254, 412" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 261, 281" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 263, 103" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 263, 142" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 263, 414" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 270, 97" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 271, 215" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 280, 212" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 280, 318" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 281, 105" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 283, 105" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 283, 160" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 283, 194" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 284, 177" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 286, 400" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 290, 121" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 291, 168" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 291, 427" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 294, 110" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 295, 106" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 300, 106" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 302, 114" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 307, 109" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 309, 179" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 312, 127" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 312, 177" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 322, 195" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 323, 179" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 327, 110" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 332, 160" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 333, 127" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 335, 178" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 338, 195" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 341, 68" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 342, 381" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 342, 75" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 347, 117" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 354, 143" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 361, 107" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 365, 130" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 397, 146" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 398, 113" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 399, 176" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 40, 126" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 406, 211" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 415, 138" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 415, 138, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 417, 190" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 417, 190, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 428, 228" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 428, 228, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 432, 107" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 442, 202" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 444, 133" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 444, 282" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 445, 94" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 447, 176" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 448, 274" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 448, 283" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 453, 178, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 454, 82" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 457, 112" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 458, 178" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 470, 254" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 479, 218" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 479, 232, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 480, 232" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 482, 214" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 493, 265" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 504, 323" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 509, 127" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 531, 227" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 545, 239" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 607, 191" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 70, 82" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 74, 143" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 75, 124" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 77, 131" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 77, 350" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 83, 122" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 85, 320" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 87, 70" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 91, 76" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 92, 110" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 92, 25" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 93, 77" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 94, 107" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 94, 126" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 94, 155" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 94, 41" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 95, 59" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 97, 113" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 97, 129" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 97, 55" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 98, 139" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 98, 178" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 98, 262" value="1" type="GuiResourceData"/>
+<property name="teljes_konvolucios_modul.vhd, 98, 96" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="25" type="GuiMode"/>
+<property name="GuiMode" value="29" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="23" type="TclMode"/>
+<property name="TclMode" value="26" type="TclMode"/>
 </item>
 </section>
 </application>

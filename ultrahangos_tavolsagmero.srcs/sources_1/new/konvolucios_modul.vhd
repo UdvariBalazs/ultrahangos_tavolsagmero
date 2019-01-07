@@ -160,7 +160,7 @@ begin
     ---------------- ciklus3 vege
     
     or_gate <= CESET or CESUM;
-    ciklus4 : for i in 0 to RSZ-1 generate -- harmadik D taroloinak kigeneralasa
+    ciklus4 : for i in 0 to RSZ-1 generate -- harmadik sor D taroloinak kigeneralasa
         if_1 : if i = 0 generate
             reg_1 : process(clk, CESET, CESUM)
             begin
